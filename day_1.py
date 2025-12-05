@@ -1,4 +1,4 @@
-from helpers import load_list_from_lines
+from loaders import load_list_from_lines
 
 items = load_list_from_lines("data/day_1_1")
 
