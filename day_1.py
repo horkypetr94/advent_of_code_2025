@@ -1,6 +1,6 @@
-from helpers import create_list_from_lines
+from helpers import load_list_from_lines
 
-items = create_list_from_lines("data/day_1_1")
+items = load_list_from_lines("data/day_1_1")
 
 safe_value = 50
 zeros_counter = 0

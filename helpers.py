@@ -1,4 +1,4 @@
-def create_list_from_lines(path: str) -> list:
+def load_list_from_lines(path: str) -> list:
     items = []
     with open(path) as f:
         data = f.readlines()
@@ -8,7 +8,7 @@ def create_list_from_lines(path: str) -> list:
     return items
 
 
-def create_str_from_line(path: str) -> str:
+def load_str_from_line(path: str) -> str:
     with open(path) as f:
         data = f.readlines()
 

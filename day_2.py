@@ -1,4 +1,4 @@
-from helpers import create_str_from_line
+from helpers import load_str_from_line
 
 def task_1(product_ids: list[str]):
     code_counter = 0
@@ -42,7 +42,7 @@ def task_2(product_ids: list[str]):
 
     print(f"The result 2 is: {code_counter}")
 
-items = create_str_from_line("data/day_2_1")
+items = load_str_from_line("data/day_2_1")
 product_ids = items.split(",")
 task_1(product_ids)
 task_2(product_ids)

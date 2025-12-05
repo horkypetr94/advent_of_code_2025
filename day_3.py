@@ -1,6 +1,6 @@
-from helpers import create_list_from_lines
+from helpers import load_list_from_lines
 
-lines = create_list_from_lines("data/day_3_1")
+lines = load_list_from_lines("data/day_3_1")
 
 def find_highest_number_from_line(line: str, offset:int) -> tuple[int, int]:
     digits = list(map(int, line))
