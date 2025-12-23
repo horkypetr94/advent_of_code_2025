@@ -1,5 +1,4 @@
 from loaders import load_list_from_lines_no_strip
-from datetime import datetime
 
 lines = [
     ".......|.......",
@@ -47,7 +46,7 @@ cols = len(lines[0])
 timeline_counts = [0] * cols
 
 for i, char in enumerate(lines[0]):
-    if char == 'S' or char == '|':
+    if char == "S" or char == "|":
         timeline_counts[i] = 1
 
 for r in range(1, rows):
@@ -70,4 +69,3 @@ for r in range(1, rows):
 
 total_timelines = sum(timeline_counts)
 print(f"result 2: {total_timelines}")
-
