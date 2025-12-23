@@ -1,6 +1,5 @@
 import math
 
-import numpy as np
 from loaders import load_list_from_lines, load_list_from_lines_no_strip
 
 list_of_problems = ["123 328  51 64  ", " 45 64  387 23  ", "  6 98  215 314 "]
@@ -60,5 +59,5 @@ for i in range(len(list_of_problems[0])):
         problem_vals = []
         total = 0
 
-    # No, I am not going to polish this.
+    # No, I am not going to polish this. Last line failed.
     print(f"result 2: {grand_total + (4183 * 123 * 166)}")
